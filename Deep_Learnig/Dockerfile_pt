@@ -1,0 +1,5 @@
+FROM nvcr.io/nvidia/pytorch:24.10-py3
+
+WORKDIR /workspace
+
+RUN pip install idx2numpy==1.2.3 tensorflow==2.16.1
